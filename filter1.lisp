@@ -1,6 +1,0 @@
-(defun filter1 (pred kurwa) 
-(cond ((null kurwa) nil) 
-((funcall pred (car kurwa)) 
-(cons (car kurwa) 
-(filter1 pred (cdr kurwa)))) 
-(T (filter1 pred (cdr kurwa)))))
